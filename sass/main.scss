@@ -3,6 +3,35 @@
 @import "material/section1";
 @import "material/section2";
 @import "material/details";
-@import "material/section3";
-@import "material/section4";
+@import "material/getstart";
+@import "material/cards.";
 @import "material/footer";
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 70%;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.2;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.container{
+    display: grid;
+grid-template-rows: 120vh repeat(7,min-content) ;
+grid-template-columns: repeat(8,minmax(min-content,1fr));
+background-color: #0d0d3f
+
+}
