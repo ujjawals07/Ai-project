@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "material/_header.scss",
+        "material/_section1.scss",
+        "material/_section2.scss",
+        "material/_details.scss",
+        "material/_section3.scss",
+        "material/_section4.scss",
+        "material/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
