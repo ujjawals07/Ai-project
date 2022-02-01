@@ -1,6 +1,48 @@
 .section2{
-  
+ 
     grid-column: 1/-1;
-    
+   // align-content: space-between;
     margin: 1rem 5rem;
+    display: flex;
+
+}
+
+.heading3{
+    font-size: 25px;
+   color:  rgb(255,117,186);
+  //width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading31{
+    font-size: 15px;
+   color:  rgb(219, 0, 110);
+  //width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   justify-self: center;
+   padding-top: 5rem;
+}
+.headings4{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+   padding: 1.5rem;
+    width: 150%;
+    padding-left: 2rem;
+   // width: 30px;
+    
+ 
+}
+.headings{
+    padding:0rem 5rem ;
+
+}
+.paragraphs4{
+    color: #8787c4;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: 1rem ;
+}
+.paragraphs{
+    padding: rem ;
 }
