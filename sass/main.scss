@@ -13,7 +13,7 @@
 *::after{
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing:border-box;
 }
 
 html{
@@ -30,8 +30,9 @@ body{
 
 .container{
     display: grid;
-grid-template-rows: 120vh repeat(7,min-content) ;
+grid-template-rows: 120vh repeat(7,min-content)  ;
 grid-template-columns: repeat(8,minmax(min-content,1fr));
 background-color: #0d0d3f
+
 
 }
