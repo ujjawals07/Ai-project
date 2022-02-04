@@ -1,7 +1,38 @@
 .get-start{
 
-
+display: grid;
     grid-column: 1/-1;
+    background-color:
+    rgb(255,117,186);;
+    margin: 5rem 5rem;
+    grid-template-columns: 1fr 30vw;
+    padding: 3rem;
+}
+.get-btn{
+    grid-column: 2/3;
+   justify-self: flex-end;
+    align-self: center;
     
-    margin: 1rem 5rem;
+    grid-row: 2/2;
+    text-decoration: none;
+    color: aliceblue;
+    background: #000;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+}
+.heading-large{
+    grid-column: 1/2;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    align-self:center;
+    grid-row: 2/2;
+}
+.head-small{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
 }
