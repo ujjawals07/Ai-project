@@ -7,6 +7,9 @@
   -ms-grid-rows: (22vh)[5];
       grid-template-rows: repeat(5, 22vh);
   margin: 0 10rem;
+  -ms-grid-columns: (minmax(min-content, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(-webkit-min-content, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
 }
 
 .logo {
@@ -133,6 +136,8 @@
       grid-template-columns: repeat(3, 30vw);
   -ms-grid-rows: 20vh 20vh 10vh;
       grid-template-rows: 20vh 20vh 10vh;
+  -ms-grid-columns: (minmax(35rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
 }
 
 .s1 {
@@ -790,9 +795,8 @@ body {
   -ms-grid-rows: 120vh (min-content)[7];
       grid-template-rows: 120vh repeat(7, -webkit-min-content);
       grid-template-rows: 120vh repeat(7, min-content);
-  -ms-grid-columns: (minmax(min-content, 1fr))[8];
-      grid-template-columns: repeat(8, minmax(-webkit-min-content, 1fr));
-      grid-template-columns: repeat(8, minmax(min-content, 1fr));
+  -ms-grid-columns: (minmax(15rem, 1fr))[8];
+      grid-template-columns: repeat(8, minmax(15rem, 1fr));
   background-color: #0d0d3f;
 }
 /*# sourceMappingURL=main.css.map */
